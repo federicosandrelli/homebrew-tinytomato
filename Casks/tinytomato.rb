@@ -11,7 +11,7 @@ cask "tinytomato" do
 
   app "tinytomato.app"
 
-  postflight_steps do
+  postflight do
     system_command "/usr/bin/xattr",
                    args: ["-dr", "com.apple.quarantine", "#{appdir}/tinytomato.app"],
                    sudo: false
