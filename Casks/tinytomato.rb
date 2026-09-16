@@ -1,6 +1,6 @@
 cask "tinytomato" do
-  version "1.2.0"
-  sha256 "28e6b7d2a990165baf5cad208cc1c5f1725b074035e2e1d809d8587d6aac15a8"
+  version "1.3.0"
+  sha256 "c873e404f4069c0bcd92baae6a9c4c474532b08ead1d132354953ff1b736a448"
 
   url "https://github.com/federicosandrelli/tinytomato/releases/download/v#{version}/tinytomato-#{version}.zip"
   name "tinytomato"
